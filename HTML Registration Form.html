@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Registration Form</title>
+</head>
+<body>
+
+	<h1> Registration Form</h1>
+	<form>
+		<fieldset>
+			<legend>Enter your Details for Registration</legend>
+		
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td>
+					<input type="text" name="name" placeholder="Your Name">
+				</td>
+			</tr>
+
+			<tr>
+				<td>Contact Number:</td>
+				<td>
+					<input type="phone" name="number" placeholder="10 digit number" maxlength="10">
+				</td>
+			</tr>
+
+			<tr>
+				<td>Email ID:</td>
+				<td>
+					<input type="text" name="email" placeholder="example@gmail.com" required>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Gender:</td>
+				<td>
+					<input type="radio" name="sex">Male
+					<input type="radio" name="sex">Female
+					<input type="radio" name="sex">Others
+				</td>
+			</tr>
+
+			<tr>
+				<td>Blood Group:</td>
+				<td>
+					<input type="text" name="blood" placeholder="A+ve" required>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Date of Birth:</td>
+				<td>
+					<input type="Date" name="dob" required>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Educational Qualification:</td>
+				<td>
+					<input type="checkbox" name="edu">Btech
+					<input type="checkbox" name="edu">Mtech
+					<input type="checkbox" name="edu">Others
+				</td>
+			</tr>
+
+			<tr>
+				<td>Address:</td>
+				<td>
+					<textarea rows="10" cols="25" placeholder="Address"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<input type="submit" name="Submit">
+					<input type="reset" name="Reset">
+				</td>
+			</tr>	
+		</table>
+	   </fieldset>
+	</form>
+
+</body>
+</html>
